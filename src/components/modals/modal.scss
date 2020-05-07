@@ -1,0 +1,62 @@
+.ant-form-item-has-error {
+  input {
+    border-color: red;
+  }
+
+  .show-help {
+    color: red;
+    font-size: 10px;
+  }
+}
+
+.modal-body {
+  min-height: 278px;
+
+  .container {
+    position: relative;
+  }
+}
+
+.form-group.NaN {
+  input {
+    border: 1px solid red;
+  }
+
+  .help-block {
+    color: red;
+  }
+}
+
+.preloader {
+  position: absolute;
+}
+
+
+.alert-none {
+  display: none;
+}
+
+
+.ant-form-item-has-error {
+  .ant-form-item-control {
+    .ant-form-item-explain {
+      // display:none
+    }
+  }
+}
+
+.ant-form-item-has-error-leave {
+  .ant-form-item-control {
+    .ant-form-item-explain {
+      display: none
+    }
+  }
+}
+
+.showsetcreateOffline.hide {
+  display: none;
+}
+
+.showsetcreateOffline.show {
+  display: block;
+}

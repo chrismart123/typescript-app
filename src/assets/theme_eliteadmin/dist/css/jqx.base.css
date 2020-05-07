@@ -1,0 +1,147 @@
+/*applied to the scrollbar buttons in default state.*/
+.jqx-scrollbar-button-state-normal {
+  margin: 0px;
+  padding: 0px;
+  border: 1px solid transparent;
+}
+/*applied to the scrollbar buttons in hovered state.*/
+.jqx-scrollbar-button-state-hover {
+  margin: 0px;
+  padding: 0px;
+  border: 1px solid transparent;
+}
+/*applied to the scrollbar buttons in pressed state.*/
+.jqx-scrollbar-button-state-pressed {
+  margin: 0px;
+  padding: 0px;
+  border: 1px solid transparent;
+}
+
+.jqx-formatted-input-spin-buttons-container,
+.jqx-formatted-input-addon {
+  height: 100%;
+}
+
+.jqx-formatted-input-spin-buttons-container {
+  width: 18px;
+  padding: 0 0 0 1px !important;
+  overflow: hidden;
+}
+
+.jqx-formatted-input-spin-buttons-container-rtl {
+  border-right-width: 0px;
+  padding: 0 0 0 2px !important;
+}
+
+.jqx-formatted-input-spin-buttons-container-rtl-border {
+  border-left-width: 1px !important;
+}
+
+.jqx-complex-input-spin-buttons-container-ltr {
+  border-left-width: 0;
+}
+
+.jqx-complex-input-spin-buttons-container-rtl {
+  border-left-width: 1px !important;
+  border-right-width: 0;
+}
+
+/*jqxButton, jqxToggleButton, jqxRepeatButton Style*/
+.jqx-button {
+  outline: none;
+  border: 1px solid transparent;
+  padding: 5px;
+  text-align: center;
+  vertical-align: central;
+  margin: 0 0 0 0;
+  cursor: default;
+}
+
+button.jqx-button,
+input[type="button"].jqx-button,
+input[type="submit"].jqx-button {
+  box-sizing: border-box !important;
+  -moz-box-sizing: border-box !important;
+}
+
+/*all rounded Corners*/
+.jqx-rc-all {
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+/*reset rounded corners*/
+.jqx-rc-reset {
+  -moz-border-radius: 0px !important;
+  -webkit-border-radius: 0px !important;
+  border-radius: 0px !important;
+}
+
+.jqx-widget,
+.jqx-widget-content,
+.jqx-widget-header,
+.jqx-fill-state-normal {
+  line-height: 1.231;
+}
+
+/*applied to header areas. Tabs, Menu, Window, Calendar.*/
+.jqx-widget-header {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  -ms-touch-action: none;
+  -moz-background-clip: padding;
+  -webkit-text-size-adjust: none;
+  background-clip: padding-box;
+  -webkit-background-clip: padding-box;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  border-color: #c5c5c5;
+  background: #e8e8e8;
+}
+
+.jqx-fill-state-normal {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  -ms-touch-action: none;
+  font-family: Verdana, Arial, sans-serif;
+  font-style: normal;
+  font-size: 13px;
+  border-color: #aaa;
+  background: #efefef;
+}
+
+.jqx-fill-state-hover {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  border-color: #999;
+  background: #e8e8e8;
+}
+
+.jqx-fill-state-pressed {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  border-color: #999;
+  background: #d1d1d1;
+}
+
+.jqx-fill-state-focus {
+  border-color: #555;
+}
+
+.jqx-fill-state-disabled {
+  cursor: default;
+  color: #000;
+  opacity: 0.55;
+  filter: Alpha(Opacity=45);
+}
+
+.jqx-fill-state-normal td,
+.jqx-fill-state-hover td,
+.jqx-fill-state-pressed td,
+.jqx-fill-state-disabled td,
+.jqx-fill-state-focus td,
+.jqx-widget td,
+.jqx-widget-content td,
+.jqx-widget-header td {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}

@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/myApp2/static/css/main.8976d43f.chunk.css",
+    "main.js": "/myApp2/static/js/main.51a7e3fb.chunk.js",
+    "main.js.map": "/myApp2/static/js/main.51a7e3fb.chunk.js.map",
+    "runtime-main.js": "/myApp2/static/js/runtime-main.ae25f23e.js",
+    "runtime-main.js.map": "/myApp2/static/js/runtime-main.ae25f23e.js.map",
+    "static/js/2.34633c80.chunk.js": "/myApp2/static/js/2.34633c80.chunk.js",
+    "static/js/2.34633c80.chunk.js.map": "/myApp2/static/js/2.34633c80.chunk.js.map",
+    "index.html": "/myApp2/index.html",
+    "precache-manifest.311b81cbbf04449f7fd2cc67cd3a84f4.js": "/myApp2/precache-manifest.311b81cbbf04449f7fd2cc67cd3a84f4.js",
+    "service-worker.js": "/myApp2/service-worker.js",
+    "static/css/main.8976d43f.chunk.css.map": "/myApp2/static/css/main.8976d43f.chunk.css.map",
+    "static/js/2.34633c80.chunk.js.LICENSE.txt": "/myApp2/static/js/2.34633c80.chunk.js.LICENSE.txt",
+    "static/media/1.jpg": "/myApp2/static/media/1.8cccc71b.jpg",
+    "static/media/style.scss": "/myApp2/static/media/zw.4c34708b.svg",
+    "static/media/login.scss": "/myApp2/static/media/login-register.5cb0c7f4.jpg",
+    "static/media/triveni2.jpg": "/myApp2/static/media/triveni2.97870d02.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ae25f23e.js",
+    "static/js/2.34633c80.chunk.js",
+    "static/css/main.8976d43f.chunk.css",
+    "static/js/main.51a7e3fb.chunk.js"
+  ]
+}

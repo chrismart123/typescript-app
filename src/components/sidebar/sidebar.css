@@ -1,0 +1,583 @@
+/*******************
+Megamenu
+******************/
+.mega-dropdown {
+  position: static;
+  width: 100%;
+}
+.mega-dropdown .dropdown-menu {
+  width: 100%;
+  padding: 30px;
+  margin-top: 0px;
+}
+.mega-dropdown ul {
+  padding: 0px;
+}
+.mega-dropdown ul li {
+  list-style: none;
+}
+.mega-dropdown .carousel-item .container {
+  padding: 0px;
+}
+.mega-dropdown .nav-accordion .card {
+  margin-bottom: 1px;
+}
+.mega-dropdown .nav-accordion .card-header {
+  background: #fff;
+}
+.mega-dropdown .nav-accordion .card-header h5 {
+  margin: 0px;
+}
+.mega-dropdown .nav-accordion .card-header h5 a {
+  text-decoration: none;
+  color: #212529;
+}
+
+.side-mini-panel {
+  width: 60px;
+  position: fixed;
+  left: 0px;
+  height: 100%;
+  background: #f6f9fb;
+  top: 66px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  z-index: 8;
+}
+.side-mini-panel ul.mini-nav {
+  height: 100%;
+  margin: 0px;
+  padding: 0px 0 140px 0;
+  display: inline-block;
+}
+.side-mini-panel ul.mini-nav > li {
+  list-style: none;
+  display: block;
+}
+.side-mini-panel ul.mini-nav > li > a {
+  padding: 15px 0px 14px;
+  display: block;
+  width: 60px;
+  font-size: 18px;
+  color: #8d97ad;
+  text-align: center;
+  border-left: 3px solid transparent;
+  border-top: 1px solid #e9ecef;
+  background-color: transparent;
+}
+.side-mini-panel ul.mini-nav > li:hover > a,
+.side-mini-panel ul.mini-nav > li.selected > a {
+  border-left: 3px solid #fb9678;
+  background: rgba(0, 0, 0, 0.02);
+}
+.side-mini-panel ul.mini-nav > li.selected > a {
+  background: #fff;
+  color: #fb9678;
+}
+.side-mini-panel ul.mini-nav > li .sidebarmenu {
+  padding: 0px;
+  position: absolute;
+  height: 100%;
+  width: 240px;
+  background: #fff;
+  top: 0px;
+  box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.05);
+  left: 60px;
+  display: none;
+}
+.side-mini-panel ul.mini-nav > li.selected .sidebarmenu {
+  display: block;
+}
+.side-mini-panel ul.mini-nav > li.selected.cnt-none .sidebarmenu {
+  display: none;
+}
+
+/************Search menu************/
+.menu-search {
+  padding: 10px 20px;
+  position: relative;
+}
+.menu-search .form-control {
+  border: 1px solid #e9ecef;
+  border-radius: 60px;
+  padding-left: 35px;
+}
+.menu-search .form-control:focus {
+  border-color: #343a40;
+}
+.menu-search a {
+  position: absolute;
+  top: 19px;
+  left: 32px;
+  color: #8d97ad;
+}
+
+/************New sidebar menu************/
+.sidebar-menu {
+  list-style: none;
+  height: 100%;
+  position: relative;
+  margin: 0px;
+  padding: 0px 0 250px 0;
+}
+.sidebar-menu > li {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+.sidebar-menu > li.active > a {
+  font-weight: 500;
+}
+.sidebar-menu a {
+  color: #8d97ad;
+  text-decoration: none;
+}
+.sidebar-menu a.active {
+  font-weight: 500;
+  color: #fb9678;
+}
+.sidebar-menu > li > a {
+  padding: 12px 20px 12px 20px;
+  display: block;
+}
+.sidebar-menu > li > a:hover {
+  color: #fb9678;
+}
+
+/************This is for submenu************/
+.menu-title {
+  padding: 12px 15px 12px 15px;
+  display: block;
+  margin: 0px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 30px;
+}
+
+/************This is for submenu************/
+.sidebar-menu li.active .sub-menu.in {
+  display: block;
+}
+
+.sidebar-menu .sub-menu > li > a:hover {
+  color: #fb9678;
+}
+
+.sidebar-menu .sub-menu > li > a.active {
+  font-weight: 500;
+}
+
+.sidebar-menu > li > .sub-menu {
+  margin: 0;
+}
+
+.sidebar-menu li > a > .fa-angle-left {
+  width: auto;
+  height: auto;
+  padding: 0;
+  margin-top: 3px;
+}
+
+.sidebar-menu li.active > a > .fa-angle-left {
+  transform: rotate(-90deg);
+}
+
+.sidebar-menu .sub-menu {
+  position: relative;
+  display: none;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar-menu .sub-menu .sub-menu {
+  padding-left: 20px;
+}
+
+.sidebar-menu .sub-menu > li {
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+.sidebar-menu .sub-menu > li > a {
+  padding: 12px 20px 12px 30px;
+  display: block;
+  font-size: 14px;
+}
+
+/************This is For button************/
+.sidebar-menu .cst-btn {
+  color: #fff;
+  margin: 15px;
+  padding: 10px;
+}
+.sidebar-menu .cst-btn:hover {
+  color: #fff;
+}
+
+.sidebar-menu .btn-outline {
+  border-size: 2px;
+  margin: 15px;
+  padding: 10px;
+}
+
+/************This is for toggle************/
+.rmv-sidebarmenu #togglebtn {
+  display: none !important;
+}
+
+.togglediv {
+  position: absolute;
+  left: 265px;
+  top: 17px;
+  z-index: 10;
+}
+
+.togglediv #togglebtn i {
+  font-size: 16px;
+  color: #212529;
+  margin-top: 5px;
+}
+
+.togglediv #togglebtn i:hover,
+.togglediv #togglebtn i:focus {
+  color: #fb9678;
+}
+
+/************This is for label************/
+.sidebar-menu .label {
+  position: absolute;
+  right: 35px;
+  padding: 5px 12px 4px;
+}
+
+/*******************
+   Right side toggle
+  *******************/
+.rmv-right-panel .right-sidebar {
+  display: none;
+}
+
+.rmv-right-panel .page-wrapper {
+  margin-right: 0;
+}
+
+.right-sidebar {
+  position: fixed;
+  right: 0;
+  width: 240px;
+  z-index: 10;
+  padding-top: 67px;
+  background: #fff;
+  top: 0px;
+  padding-bottom: 20px;
+  height: 100%;
+  box-shadow: 5px 1px 40px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+.right-sidebar .rpanel-title {
+  font-size: 14px;
+  background: #f8f9fa;
+  margin: 0;
+  padding: 12px 20px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.right-sidebar .r-panel-body {
+  padding: 20px;
+}
+.right-sidebar .r-panel-body ul {
+  margin: 10px 0;
+  padding: 0px;
+}
+.right-sidebar .r-panel-body ul li {
+  list-style: none;
+  padding: 5px 0;
+  border: 0;
+}
+.right-sidebar .r-panel-body .daydrop {
+  border: 0;
+  background: 0 0;
+  padding: 0;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+/*******************
+   Right side toggle
+  *******************/
+ul#themecolors {
+  display: block;
+}
+ul#themecolors li {
+  display: inline-block;
+}
+ul#themecolors li:first-child {
+  display: block;
+}
+ul#themecolors li a {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  margin: 5px;
+  color: transparent;
+  position: relative;
+}
+ul#themecolors li a.working:before {
+  content: "\f00c";
+  font-family: "FontAwesome";
+  font-size: 18px;
+  line-height: 50px;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  text-align: center;
+}
+
+.default-theme {
+  background: #6c757d;
+}
+
+.green-theme {
+  background: #00c292;
+}
+
+.yellow-theme {
+  background: #fec107;
+}
+
+.red-theme {
+  background: #e46a76;
+}
+
+.blue-theme {
+  background: #03a9f3;
+}
+
+.purple-theme {
+  background: #ab8ce4;
+}
+
+.megna-theme {
+  background: #01c0c8;
+}
+
+.default-dark-theme {
+  background: #343a40;
+  /* Old browsers */
+  background: -moz-linear-gradient(
+    left,
+    #343a40 0%,
+    #343a40 23%,
+    #6c757d 23%,
+    #6c757d 99%
+  );
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    left,
+    #343a40 0%,
+    #343a40 23%,
+    #6c757d 23%,
+    #6c757d 99%
+  );
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to right,
+    #343a40 0%,
+    #343a40 23%,
+    #6c757d 23%,
+    #6c757d 99%
+  );
+}
+
+.green-dark-theme {
+  background: #343a40;
+  /* Old browsers */
+  background: -moz-linear-gradient(
+    left,
+    #343a40 0%,
+    #343a40 23%,
+    #00c292 23%,
+    #00c292 99%
+  );
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    left,
+    #343a40 0%,
+    #343a40 23%,
+    #00c292 23%,
+    #00c292 99%
+  );
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to right,
+    #343a40 0%,
+    #343a40 23%,
+    #00c292 23%,
+    #00c292 99%
+  );
+}
+
+.yellow-dark-theme {
+  background: #343a40;
+  /* Old browsers */
+  background: -moz-linear-gradient(
+    left,
+    #343a40 0%,
+    #343a40 23%,
+    #e46a76 23%,
+    #e46a76 99%
+  );
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    left,
+    #343a40 0%,
+    #343a40 23%,
+    #e46a76 23%,
+    #e46a76 99%
+  );
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to right,
+    #343a40 0%,
+    #343a40 23%,
+    #e46a76 23%,
+    #e46a76 99%
+  );
+}
+
+.blue-dark-theme {
+  background: #343a40;
+  /* Old browsers */
+  background: -moz-linear-gradient(
+    left,
+    #343a40 0%,
+    #343a40 23%,
+    #03a9f3 23%,
+    #03a9f3 99%
+  );
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    left,
+    #343a40 0%,
+    #343a40 23%,
+    #03a9f3 23%,
+    #03a9f3 99%
+  );
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to right,
+    #343a40 0%,
+    #343a40 23%,
+    #03a9f3 23%,
+    #03a9f3 99%
+  );
+}
+
+.purple-dark-theme {
+  background: #343a40;
+  /* Old browsers */
+  background: -moz-linear-gradient(
+    left,
+    #343a40 0%,
+    #343a40 23%,
+    #ab8ce4 23%,
+    #ab8ce4 99%
+  );
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    left,
+    #343a40 0%,
+    #343a40 23%,
+    #ab8ce4 23%,
+    #ab8ce4 99%
+  );
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to right,
+    #343a40 0%,
+    #343a40 23%,
+    #ab8ce4 23%,
+    #ab8ce4 99%
+  );
+}
+
+.megna-dark-theme {
+  background: #343a40;
+  /* Old browsers */
+  background: -moz-linear-gradient(
+    left,
+    #343a40 0%,
+    #343a40 23%,
+    #01c0c8 23%,
+    #01c0c8 99%
+  );
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    left,
+    #343a40 0%,
+    #343a40 23%,
+    #01c0c8 23%,
+    #01c0c8 99%
+  );
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to right,
+    #343a40 0%,
+    #343a40 23%,
+    #01c0c8 23%,
+    #01c0c8 99%
+  );
+}
+
+.red-dark-theme {
+  background: #343a40;
+  /* Old browsers */
+  background: -moz-linear-gradient(
+    left,
+    #343a40 0%,
+    #343a40 23%,
+    #e46a76 23%,
+    #e46a76 99%
+  );
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    left,
+    #343a40 0%,
+    #343a40 23%,
+    #e46a76 23%,
+    #e46a76 99%
+  );
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to right,
+    #343a40 0%,
+    #343a40 23%,
+    #e46a76 23%,
+    #e46a76 99%
+  );
+}
+
+.chatonline img {
+  margin-right: 10px;
+  float: left;
+  width: 30px;
+}
+
+.chatonline li a {
+  padding: 13px 0;
+  float: left;
+  width: 100%;
+}
+.chatonline li a span {
+  color: #212529;
+}
+.chatonline li a span small {
+  display: block;
+  font-size: 10px;
+}
